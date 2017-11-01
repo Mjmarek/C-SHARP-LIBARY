@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0._12_OOP_GameBuildAlong
+namespace _0._11_OOP_GameBuildAlong
 {
     class Player : Character
     {

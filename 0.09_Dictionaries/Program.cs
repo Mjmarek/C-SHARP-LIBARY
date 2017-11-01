@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0._09_CollectionDictionaries
+namespace _0._09_Dictionaries
 {
     class Program
     {

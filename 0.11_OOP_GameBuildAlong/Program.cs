@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _0._12_OOP_GameBuildAlong
+namespace _0._11_OOP_GameBuildAlong
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace _0._12_OOP_GameBuildAlong
             SpeechSynthesizer synth = new SpeechSynthesizer();
 
             //Prompt for player information
-            Console.WriteLine("Hello, wander...\n" +
+            Console.WriteLine("Hello, wanderer...\n" +
                               "What be thy name?");
             string inputName = Console.ReadLine();
 
