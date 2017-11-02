@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\obj\Debug\0.16_Interfaces.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\obj\Debug\0.16_Interfaces.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\bin\Debug\0.16_Interfaces.exe.config
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\bin\Debug\0.16_Interfaces.exe
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\bin\Debug\0.16_Interfaces.pdb
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\obj\Debug\0.16_Interfaces.exe
+C:\DotNetProjects\CSharp_Library\0.16_Interfaces\obj\Debug\0.16_Interfaces.pdb
