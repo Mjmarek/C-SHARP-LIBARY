@@ -21,15 +21,14 @@ namespace Quiz1
             Console.WriteLine($"Triangle 3 Area = {newTriangle3.Area()}");
             Console.WriteLine($"Triangle 4 Area = {newTriangle4.Area()}");
             Console.WriteLine($"Triangle 5 Area = {newTriangle5.Area()}");
-
-            IEnumerable<Triangle> triangles = new List<Triangle>()
+            
+            IEnumerable<Triangle> triangles = new List<Triangle>
             {
-                new Triangle {TBase=3,THeight=5,TArea=newTriangle1.Area()},
-                new Triangle {TBase=1,THeight=4,TArea=newTriangle1.Area()},
-                new Triangle {TBase=5,THeight=8,TArea=newTriangle1.Area()},
-                new Triangle {TBase=9,THeight=6,TArea=newTriangle1.Area()},
-                new Triangle {TBase=12,THeight=7,TArea=newTriangle1.Area()}
-                //need to fix number of parameters accepted
+                newTriangle1,
+                newTriangle2,
+                newTriangle3,
+                newTriangle4,
+                newTriangle5
             };
 
             IEnumerable<Triangle> query = from t in triangles
@@ -39,8 +38,7 @@ namespace Quiz1
 
             foreach (Triangle triangle in query)
             {
-                Console.WriteLine(triangles);
-                //need to fix what prints to console
+                Console.WriteLine(triangle.TArea);                
             }
 
             Console.ReadLine();         
