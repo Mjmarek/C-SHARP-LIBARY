@@ -8,19 +8,20 @@ namespace Quiz1
 {
     class Triangle : Shape
     {
-
         public Triangle(int triBase, int triHeight)
         {
             this.TBase = triBase;
-            this.THeight = triHeight;
+            this.THeight = triHeight;           
         }
-
+                
         public int TBase { get; set; }
         public int THeight { get; set; }
-
+        public double TArea { get; set; }
+        
         public override double Area()
         {
-            return .5 * TBase * THeight;
-        }        
+            this.TArea = 0.5 * this.TBase * this.THeight;
+            return this.TArea;
+        }
     }
 }
