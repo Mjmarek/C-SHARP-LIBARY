@@ -34,11 +34,13 @@ namespace _0._11_OOP_GameBuildAlong
             //Get value user provided
             int inputSpec = Int32.Parse(Console.ReadLine());
 
-            //Perform explicit cast from
-            //int to Specialization enum type
+            //Perform explicit cast from int to Specialization enum type
             Player.Specialization inputSpecialization = (Player.Specialization)inputSpec;
 
+            //if user enters 0-5, print this line; else print
+            //"Please select a specialization from the list provided."
             Console.WriteLine($"Ahh... a {inputSpecialization}, an interesting choice.");
+            Thread.Sleep(1500);
 
             //Create new Player object
             Player hero = new Player(inputName, inputSpecialization);
@@ -57,8 +59,8 @@ namespace _0._11_OOP_GameBuildAlong
             Thread.Sleep(1000);
 
             Enemy robot = new Enemy("Dark Wizard", hero.Level);
-            Console.WriteLine("BATTLE INSTANTIATED!");
-            synth.Speak("BATTLE INSTANTIATED!");
+            Console.WriteLine("BATTLE INITIATED!");
+            synth.Speak("BATTLE INITIATED!");
 
             //Battle Loop
             while(hero.IsAlive && robot.IsAlive)
@@ -95,7 +97,7 @@ namespace _0._11_OOP_GameBuildAlong
                         Console.WriteLine("=====================================\n" +
                                          $"{robot.Name} Deals {robotAttack} to {hero.Name}\n" +
                                           "=====================================\n");
-                        Thread.Sleep(1500);
+                        Thread.Sleep(2000);
                         break;
                     case Player.Action.Run:
                         Console.Clear();
@@ -121,7 +123,17 @@ namespace _0._11_OOP_GameBuildAlong
                 }
 
                 //Check to see if anoyone is dead
-                if (hero.Health < 0)
+                if (robot.Health <= 0)
+                {
+                    robot.IsAlive = false;
+                    Thread.Sleep(2000);
+                    Console.WriteLine($"{hero.Name} has defeated {robot.Name}!");
+                    Thread.Sleep(1000);
+                    synth.Speak("What!?!?! NOOOOOOOOOOOOOOOO!");
+                    break;
+                }
+
+                if (hero.Health <= 0)
                 {
                     hero.IsAlive = false;
                     Thread.Sleep(2000);
@@ -129,14 +141,6 @@ namespace _0._11_OOP_GameBuildAlong
                     Console.WriteLine($"{robot.Name} has defeated {hero.Name}!");
                     Thread.Sleep(1000);
                     synth.Speak("Defeating you was exclamation mark difficult. Hahahahahaha.");
-                }
-                if (robot.Health < 0)
-                {
-                    robot.IsAlive = false;
-                    Thread.Sleep(2000);
-                    Console.WriteLine($"{hero.Name} has defeated {robot.Name}!");
-                    Thread.Sleep(1000);
-                    synth.Speak("What!?!?! NOOOOOOOOOOOOOOOO!");
                 }
 
             }Console.ReadLine();

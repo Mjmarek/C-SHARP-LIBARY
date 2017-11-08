@@ -16,8 +16,8 @@ namespace _0._11_OOP_GameBuildAlong
             this.IsAlive = true;
             this.Health = 100;
             this.Level = 1;
-            this.AttackPower = 10;
-            this.CritChance = 0.10;
+            this.AttackPower = 20;
+            this.CritChance = 0.15;
         }
         
         //Properties

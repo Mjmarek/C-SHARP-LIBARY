@@ -34,8 +34,7 @@ namespace _0._11_OOP_GameBuildAlong
         public bool IsCritical()
         {
             Random rnd = new Random();
-            bool isCrit = rnd.Next(0, 101) < (this.CritChance * 100) ? true : false;
-            return isCrit;
+            return rnd.Next(0, 101) < (this.CritChance * 100);
         }
     }
 }
