@@ -22,7 +22,7 @@ namespace _0._11_OOP_GameBuildAlong
 
             Console.Clear();
 
-            Console.WriteLine($"Nice to meet you, {inputName}.");
+            Console.WriteLine(string.Format("Nice to meet you, {0}.", inputName));
             Thread.Sleep(1000);
             Console.WriteLine("\nWhat's your specialization, friend?\n" +
                 "0: Horse Mange\n" +
@@ -39,7 +39,7 @@ namespace _0._11_OOP_GameBuildAlong
 
             //if user enters 0-5, print this line; else print
             //"Please select a specialization from the list provided."
-            Console.WriteLine($"Ahh... a {inputSpecialization}, an interesting choice.");
+            Console.WriteLine(string.Format("Ahh... a {0}, an interesting choice.", inputSpecialization));
             Thread.Sleep(2000);
 
             //Create new Player object
@@ -47,15 +47,15 @@ namespace _0._11_OOP_GameBuildAlong
 
             Console.Clear();
 
-            Console.WriteLine($"Your journey begins here {hero.Name}, the {hero.Role}!");
+            Console.WriteLine(string.Format("Your journey begins here {0}, the {1}!", hero.Name, hero.Role));
             Thread.Sleep(2000);
             Console.Clear();
 
             Console.WriteLine("A shady figure appears...");
             Thread.Sleep(1500);
 
-            Console.WriteLine($"You're going down, {hero.Name}!");
-            synth.Speak($"You're going down {hero.Name}, the {hero.Role}");
+            Console.WriteLine(string.Format("You're going down, {0}!", hero.Name));
+            synth.Speak(string.Format("You're going down {0}, the {1}", hero.Name, hero.Role));
             Thread.Sleep(1000);
 
             Enemy robot = new Enemy("Dark Wizard", hero.Level);
@@ -66,8 +66,8 @@ namespace _0._11_OOP_GameBuildAlong
             while(hero.IsAlive && robot.IsAlive)
             {
                 Console.Clear();
-                Console.WriteLine($"{hero.Name}'s Health: {hero.Health}\n" +
-                                  $"{robot.Name}'s Health: {robot.Health}\n\n");
+                Console.WriteLine(string.Format("{0}'s Health: {1}\n", hero.Name, hero.Health) +
+                                  string.Format("{0}'s Health: {1}\n\n", robot.Name, robot.Health));
                 Console.WriteLine("=======================\n" +
                                   "         ACTIONS   \n" +
                                   "=======================");
@@ -91,11 +91,11 @@ namespace _0._11_OOP_GameBuildAlong
                         //Display attack stuff in the console
                         Console.Clear();
                         Console.WriteLine("=====================================\n" +
-                                         $"{hero.Name} Deals {heroAttack} to {robot.Name}\n" +
+                                         string.Format("{0} Deals {1} to {2}\n", hero.Name, heroAttack, robot.Name) +
                                           "=====================================\n");
                         Thread.Sleep(1000);
                         Console.WriteLine("=====================================\n" +
-                                         $"{robot.Name} Deals {robotAttack} to {hero.Name}\n" +
+                                         string.Format("{0} Deals {1} to {2}\n", robot.Name, robotAttack, hero.Name) +
                                           "=====================================\n");
                         Console.WriteLine(robot.Taunt(hero.Health));
                         synth.Speak(robot.Taunt(hero.Health));
@@ -103,19 +103,21 @@ namespace _0._11_OOP_GameBuildAlong
                         break;
                     case Player.Action.Run:
                         Console.Clear();
-                        Console.WriteLine($"{hero.Name} attempts to make a run for it!");
+                        Console.WriteLine(string.Format("{0} attempts to make a run for it!", hero.Name));
                         Thread.Sleep(1500);
                         synth.Speak("Where do you think you're going?!");
                         Console.Clear();
-                        Console.WriteLine($"{robot.Name} pulls {hero.Name} back into the fight!");
+                        Console.WriteLine(string.Format("{0} pulls {1} back into the fight!", robot.Name, hero.Name));
+                        Thread.Sleep(2000);
                         break;
                     case Player.Action.Hide:
                         Console.Clear();
-                        Console.WriteLine($"{hero.Name} attempts to hide...");
+                        Console.WriteLine(string.Format("{0} attempts to hide...", hero.Name));
                         Thread.Sleep(1500);
-                        synth.Speak($"You can't hide from me {hero.Role}");
+                        synth.Speak(string.Format("You can't hide from me {0}", hero.Role));
                         Console.Clear();
-                        Console.WriteLine($"{robot.Name} found {hero.Name}!");
+                        Console.WriteLine(string.Format("{0} found {1}!", robot.Name, hero.Name));
+                        Thread.Sleep(2000);
                         break;
                     default:
                         Console.WriteLine("Enter 0, 1, or 2 to perform an action!");
@@ -129,7 +131,7 @@ namespace _0._11_OOP_GameBuildAlong
                 {
                     robot.IsAlive = false;
                     Thread.Sleep(2000);
-                    Console.WriteLine($"{hero.Name} has defeated {robot.Name}!");
+                    Console.WriteLine(string.Format("{0} has defeated {1}!", hero.Name, robot.Name));
                     Thread.Sleep(1000);
                     synth.Speak("What!?!?! NOOOOOOOOOOOOOOOO!");
                     break;
@@ -140,7 +142,7 @@ namespace _0._11_OOP_GameBuildAlong
                     hero.IsAlive = false;
                     Thread.Sleep(2000);
                     Console.Clear();
-                    Console.WriteLine($"{robot.Name} has defeated {hero.Name}!");
+                    Console.WriteLine(string.Format("{0} has defeated {1}!", robot.Name, hero.Name));
                     Thread.Sleep(1000);
                     synth.Speak("Defeating you was exclamation mark difficult. Hahahahahaha.");
                 }
