@@ -24,7 +24,7 @@ namespace _0._11_OOP_GameBuildAlong
 
             Console.WriteLine($"Nice to meet you, {inputName}.");
             Thread.Sleep(1000);
-            Console.WriteLine("\nWhat's your specialization friend?\n" +
+            Console.WriteLine("\nWhat's your specialization, friend?\n" +
                 "0: Horse Mange\n" +
                 "1: Troll Cat\n" +
                 "2: Knight Templator\n" +
@@ -40,7 +40,7 @@ namespace _0._11_OOP_GameBuildAlong
             //if user enters 0-5, print this line; else print
             //"Please select a specialization from the list provided."
             Console.WriteLine($"Ahh... a {inputSpecialization}, an interesting choice.");
-            Thread.Sleep(1500);
+            Thread.Sleep(2000);
 
             //Create new Player object
             Player hero = new Player(inputName, inputSpecialization);
@@ -97,7 +97,9 @@ namespace _0._11_OOP_GameBuildAlong
                         Console.WriteLine("=====================================\n" +
                                          $"{robot.Name} Deals {robotAttack} to {hero.Name}\n" +
                                           "=====================================\n");
-                        Thread.Sleep(2000);
+                        Console.WriteLine(robot.Taunt(hero.Health));
+                        synth.Speak(robot.Taunt(hero.Health));
+                        Thread.Sleep(1000);
                         break;
                     case Player.Action.Run:
                         Console.Clear();
