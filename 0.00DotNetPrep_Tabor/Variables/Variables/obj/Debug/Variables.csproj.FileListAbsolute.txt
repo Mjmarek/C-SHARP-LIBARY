@@ -1,0 +1,7 @@
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\bin\Debug\Variables.exe.config
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\bin\Debug\Variables.exe
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\bin\Debug\Variables.pdb
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\obj\Debug\Variables.csprojResolveAssemblyReference.cache
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\obj\Debug\Variables.csproj.CoreCompileInputs.cache
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\obj\Debug\Variables.exe
+C:\Users\daleks-rawk\DotNetPrep\tabor\Variables\Variables\obj\Debug\Variables.pdb

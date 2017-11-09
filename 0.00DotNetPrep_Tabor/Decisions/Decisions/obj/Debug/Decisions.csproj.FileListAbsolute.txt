@@ -1,0 +1,7 @@
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\bin\Debug\Decisions.exe.config
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\bin\Debug\Decisions.exe
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\bin\Debug\Decisions.pdb
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\obj\Debug\Decisions.csprojResolveAssemblyReference.cache
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\obj\Debug\Decisions.csproj.CoreCompileInputs.cache
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\obj\Debug\Decisions.exe
+C:\Users\daleks-rawk\source\repos\Decisions\Decisions\obj\Debug\Decisions.pdb

@@ -1,0 +1,7 @@
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\bin\Debug\ForIteration.exe.config
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\bin\Debug\ForIteration.exe
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\bin\Debug\ForIteration.pdb
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\obj\Debug\ForIteration.csprojResolveAssemblyReference.cache
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\obj\Debug\ForIteration.csproj.CoreCompileInputs.cache
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\obj\Debug\ForIteration.exe
+C:\Users\daleks-rawk\source\repos\ForIteration\ForIteration\obj\Debug\ForIteration.pdb

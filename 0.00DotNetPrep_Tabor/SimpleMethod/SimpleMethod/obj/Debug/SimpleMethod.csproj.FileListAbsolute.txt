@@ -1,0 +1,7 @@
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\bin\Debug\SimpleMethod.exe.config
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\bin\Debug\SimpleMethod.exe
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\bin\Debug\SimpleMethod.pdb
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.csprojResolveAssemblyReference.cache
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.csproj.CoreCompileInputs.cache
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.exe
+C:\Users\daleks-rawk\source\repos\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.pdb

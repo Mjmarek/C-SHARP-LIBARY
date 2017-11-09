@@ -12,3 +12,10 @@ C:\DotNetProjects\CSharp-Library\0.08_ArraysChallenge\obj\Debug\0.08_ArraysChall
 C:\DotNetProjects\CSharp-Library\0.08_ArraysChallenge\obj\Debug\0.08_ArraysChallenge.csproj.CoreCompileInputs.cache
 C:\DotNetProjects\CSharp-Library\0.08_ArraysChallenge\obj\Debug\0.08_ArraysChallenge.exe
 C:\DotNetProjects\CSharp-Library\0.08_ArraysChallenge\obj\Debug\0.08_ArraysChallenge.pdb
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\bin\Debug\0.08_ArraysChallenge.exe.config
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\bin\Debug\0.08_ArraysChallenge.exe
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\bin\Debug\0.08_ArraysChallenge.pdb
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\obj\Debug\0.08_ArraysChallenge.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\obj\Debug\0.08_ArraysChallenge.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\obj\Debug\0.08_ArraysChallenge.exe
+C:\DotNetProjects\CSharp_Library\0.08_Arrays\obj\Debug\0.08_ArraysChallenge.pdb
