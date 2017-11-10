@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\bin\Debug\Whiteboard1_Q4.exe.config
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\bin\Debug\Whiteboard1_Q4.exe
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\bin\Debug\Whiteboard1_Q4.pdb
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\obj\Debug\Whiteboard1_Q4.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\obj\Debug\Whiteboard1_Q4.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\obj\Debug\Whiteboard1_Q4.exe
+C:\DotNetProjects\CSharp_Library\Whiteboard1_Q4\obj\Debug\Whiteboard1_Q4.pdb

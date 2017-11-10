@@ -19,7 +19,7 @@ namespace _0._08_ArraysChallenge
             }
 
             //Silver Challenge
-            int[] number1 = new int[] { 3, 4, 4, 5, 5 };
+            int[] number1 = { 3, 4, 4, 5, 5 };//Don't need "new int[]; shorthand for line below"
             int[] number2 = new int[] { 7, 2, 43, 2, 12 };
             int[] number3 = new int[5];
 

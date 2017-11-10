@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\bin\Debug\WhiteBoard1_Q5.exe.config
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\bin\Debug\WhiteBoard1_Q5.exe
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\bin\Debug\WhiteBoard1_Q5.pdb
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\obj\Debug\WhiteBoard1_Q5.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\obj\Debug\WhiteBoard1_Q5.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\obj\Debug\WhiteBoard1_Q5.exe
+C:\DotNetProjects\CSharp_Library\WhiteBoard1_Q5\obj\Debug\WhiteBoard1_Q5.pdb
