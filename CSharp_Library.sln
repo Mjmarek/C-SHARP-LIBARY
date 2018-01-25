@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiteboard1_Q5", "WhiteBoar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiteboard1_Q3", "Whiteboard1_Q3\Whiteboard1_Q3.csproj", "{055D09C2-493D-4141-8861-BA33AE9C51DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.15_LINQpractice", "0.15_LINQpractice\0.15_LINQpractice.csproj", "{D7F88EF0-BAF5-42AC-83F2-752C63C65749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{055D09C2-493D-4141-8861-BA33AE9C51DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055D09C2-493D-4141-8861-BA33AE9C51DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{055D09C2-493D-4141-8861-BA33AE9C51DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F88EF0-BAF5-42AC-83F2-752C63C65749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F88EF0-BAF5-42AC-83F2-752C63C65749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F88EF0-BAF5-42AC-83F2-752C63C65749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F88EF0-BAF5-42AC-83F2-752C63C65749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharp_Library\0.15_LINQpractice\bin\Debug\0.15_LINQpractice.exe.config
+C:\DotNetProjects\CSharp_Library\0.15_LINQpractice\bin\Debug\0.15_LINQpractice.exe
+C:\DotNetProjects\CSharp_Library\0.15_LINQpractice\bin\Debug\0.15_LINQpractice.pdb
+C:\DotNetProjects\CSharp_Library\0.15_LINQpractice\obj\Debug\0.15_LINQpractice.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharp_Library\0.15_LINQpractice\obj\Debug\0.15_LINQpractice.exe
+C:\DotNetProjects\CSharp_Library\0.15_LINQpractice\obj\Debug\0.15_LINQpractice.pdb
