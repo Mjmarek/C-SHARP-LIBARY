@@ -7,7 +7,7 @@
 **You can try the game for yourself here:** https://repl.it/@MonicaM/Console-Game-App
 
 **Screenshots of Console Game:** 
-![Alt Text](ConsoleGame1.JPG)
-![Alt Text](ConsoleGame2.JPG)
+![Alt Text](Console1.JPG)
+![Alt Text](Console2.JPG)
 
 **Contact Information:** Monica Marek | monicamarek24@gmail.com
