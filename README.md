@@ -8,6 +8,6 @@
 
 **Screenshots of Console Game:** 
 ![Alt Text](Console1.JPG)
-![Alt Text](Console2.JPG)
+![Alt Text](Console2.jpg)
 
 **Contact Information:** Monica Marek | monicamarek24@gmail.com
